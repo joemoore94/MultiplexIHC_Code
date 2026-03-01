@@ -8,3 +8,18 @@ functions_test.m
 #files generated while working to be ignored
 *.m~
 
+# Python
+Registration-python/.venv/
+Registration-python/__pycache__/
+Registration-python/**/__pycache__/
+*.pyc
+
+# Logs
+Registration-python/logs/*
+!Registration-python/logs/.gitkeep
+
+# Sample slides and test data (large files, not for git)
+SampleSlides/
+Registration-python/tests/test_data/*
+!Registration-python/tests/test_data/.gitkeep
+
